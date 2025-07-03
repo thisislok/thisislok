@@ -17,7 +17,7 @@ I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azu
 - ☕ [MySQL - Company Database Design](https://github.com/thisislok/thisislok/blob/main/MySQL%20Challenge)  
   Build a company database with tables for employees, customers, products, and orders, write queries for sales totals and commissions info.
 
-- ℹ️ [Wordpress Depolyment}(https://github.com/thisislok/thisislok/tree/main/project_wordpress)
+- ℹ️ [Wordpress Depolyment](https://github.com/thisislok/thisislok/tree/main/project_wordpress)
   A Bash script that automates the download, installation, and permission setup of the latest WordPress on a Linux web server.
 
 > *More projects coming soon!*
