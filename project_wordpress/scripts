@@ -1,0 +1,46 @@
+#!/bin/bash
+
+# Variables (customize these)
+WP_VERSION="latest"
+WP_DOWNLOAD_URL="https://wordpress.org/latest.tar.gz"
+TARGET_DIR="/var/www/html/wordpress"
+WEB_USER="www-data"
+WEB_GROUP="www-data"
+
+echo "Starting WordPress deployment..."
+
+# Download WordPress
+echo "Downloading WordPress..."
+curl -O $WP_DOWNLOAD_URL
+
+# Extract WordPress
+echo "Extracting WordPress..."
+tar -xzf latest.tar.gz
+
+# Move to target directory
+echo "Deploying to $TARGET_DIR..."
+sudo rm -rf $TARGET_DIR
+sudo mv wordpress $TARGET_DIR
+
+# Set ownership and permissions
+echo "Setting permissions..."
+sudo chown -R $WEB_USER:$WEB_GROUP $TARGET_DIR
+sudo find $TARGET_DIR -type d -exec chmod 755 {} \;
+sudo find $TARGET_DIR -type f -exec chmod 644 {} \;
+
+# Optionally create wp-config.php (customize as needed)
+# echo "Creating wp-config.php..."
+# cp $TARGET_DIR/wp-config-sample.php $TARGET_DIR/wp-config.php
+# sed -i "s/database_name_here/your_database_name/" $TARGET_DIR/wp-config.php
+# sed -i "s/username_here/your_database_user/" $TARGET_DIR/wp-config.php
+# sed -i "s/password_here/your_database_password/" $TARGET_DIR/wp-config.php
+
+# Clean up
+echo "Cleaning up..."
+rm latest.tar.gz
+
+# Restart webserver (optional)
+# echo "Restarting Apache..."
+# sudo systemctl restart apache2
+
+echo "WordPress deployed successfully at $TARGET_DIR"
