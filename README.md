@@ -1,43 +1,56 @@
 # 👋 Hiya, this is Lok!
 
-I’m a London-based aspiring Cloud Engineer passionate about cloud infrastructure, security, and automation. Recently graduated from the Generation UK&I Cloud Engineering Bootcamp, I’m now applying my business background and technical skills to build scalable, secure, and efficient cloud solutions.
+🚀 **Cloud Developer** with a background in business development and a passion for building secure, scalable, and automated systems in the cloud. I recently completed the Generation UK&I Cloud Engineering Bootcamp and hold certifications in **Azure (AZ-900, SC-900)**, **Google Cybersecurity**, and **(ISC)² CC**.
+
+I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azure**, and I thrive at the intersection of technical problem-solving, fast-paced learning, and strong communication.
 
 ---
 
-## 🚀 Projects
+## 🚀 Featured Projects
 
-- 🌐 [FAB Azure Portfolio Site](https://your-portfolio-link.com)  
-  Static website hosted on Azure Blob Storage with CI/CD via GitHub Actions.
+- 🌐 [CI/CD Portfolio Site](https://loktinwebhtml.z33.web.core.windows.net/)  
+  A personal portfolio hosted on **Azure Blob Storage**, powered by a full **CI/CD pipeline using GitHub Actions**. Demonstrates cloud hosting, version control, and automation skills.
 
-- 📁 [Terraform Azure VM Setup](https://github.com/yourusername/terraform-vm)  
-  Deploys a complete VM environment on Azure using Infrastructure as Code.
+- 🐍 [Python Café Ops Manager](https://github.com/thisislok/cafe_project)  
+  End-to-end Python app for managing café operations — includes ordering logic, pricing, and dynamic table management.
 
 > *More projects coming soon!*
 
 ---
 
-## 📜 Certificates
+## 📁 Project-Based Certificates
 
-- 🎓 [Microsoft Azure Fundamentals (AZ-900)](https://www.credly.com/badges/your-az900-link)
-- 🛡️ [Microsoft Security, Compliance, and Identity (SC-900)](https://www.credly.com/badges/your-sc900-link)
-- 🔐 [Google Cybersecurity Professional Certificate](https://www.credly.com/badges/your-google-link)
-- 🧩 [(ISC)² Certified in Cybersecurity (CC)](https://www.credly.com/badges/your-cc-link)
+- 🧪 [Wireshark for Beginners: Packet Capture](https://www.coursera.org/account/accomplishments/records/UCL9GC6BG65W)  
+  Explored traffic analysis and live packet captures using Wireshark.
+
+- 🧰 [TCPDump Network Monitoring Certificate](https://www.coursera.org/account/accomplishments/certificate/U3L6RPCKP77Y)  
+  Completed practical exercises with TCPDump for hands-on network debugging.
+
+---
+
+## 📜 Professional Certifications
+
+- 🎓 [Microsoft Azure Fundamentals (AZ-900)](https://learn.microsoft.com/en-gb/users/loktincheng-0755/credentials/certification/azure-fundamentals?wt.mc_id=certnurture_eml1_email_wwl&source=docs&tab=credentials-tab)
+- 🛡️ [Microsoft Security, Compliance, and Identity (SC-900)](https://learn.microsoft.com/api/credentials/share/en-us/LokTinCheng-0755/7082A54CFE7F7027?sharingId)
+- 🔐 [Google Cybersecurity Professional Certificate](https://coursera.org/share/e2c89ce519cb7c1fb7fdf24c6c1ba6c5)
+- 🧩 [(ISC)² Certified in Cybersecurity (CC)](https://www.credly.com/badges/f124dda5-e2b3-4db8-a522-1f0ad6cb75bf/linked_in_profile)
 
 ---
 
 ## 🧠 Technical Skills
 
-- **Cloud Platforms:** Azure, GCP (basic)
-- **IaC & DevOps:** Terraform, GitHub Actions, Docker
-- **Scripting:** Python, Bash
-- **Monitoring & Security:** Microsoft Defender for Cloud, Azure Monitor, IAM
-- **Other Tools:** VS Code, Git, Linux CLI
+**💻 Scripting:** Python, PowerShell, Bash — for automation, cloud CLI operations, and parsing system data  
+**⚙️ Infrastructure & Containers:** Terraform, Docker, Kubernetes (basics) — deploy cloud infra-as-code with modular structure  
+**🗃️ Databases:** MySQL — designed and queried relational schemas with joins and constraints  
+**🐧 Linux & Server Ops:** Managed VM instances via SSH, system updates, log monitoring, and patching  
+**☁️ Azure Cloud:** Experience with VMs, Entra ID, Microsoft Defender, Sentinel, Purview — used for labs and project deployments  
+**🔄 CI/CD & Git:** GitHub Actions — built pipelines to auto-deploy websites and validate code changes
 
 ---
 
-## 🤝 Connect with me
+## 🤝 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/your-link)
-[![Gmail](https://img.shields.io/badge/Gmail-red?logo=gmail&style=for-the-badge)](mailto:your.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&style=for-the-badge)](https://www.linkedin.com/in/ltcheng/)
+[![Gmail](https://img.shields.io/badge/Gmail-red?logo=gmail&style=for-the-badge)](mailto:lokslondon@gmail.com)
 
 ---
