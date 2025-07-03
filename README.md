@@ -14,8 +14,8 @@ I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azu
 - 🐍 [Python Café Ops Manager](https://github.com/thisislok/cafe_project)  
   End-to-end Python app for managing café operations — includes ordering logic, pricing, and dynamic table management.
 
-- ☕ [MySQL - Company Database Design](https://github.com/thisislok/thisislok/blob/main/MySQL%20Challenge/readme)
-  Build a company database with tables for employees, customers, products, and orders, then write queries to get useful info like sales totals and commissions.
+- ☕ [MySQL - Company Database Design](https://github.com/thisislok/thisislok/blob/main/MySQL%20Challenge/readme)  
+  Build a company database with tables for employees, customers, products, and orders, write queries for sales totals and commissions info.
   
 > *More projects coming soon!*
 
