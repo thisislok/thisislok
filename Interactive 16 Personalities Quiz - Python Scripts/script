@@ -1,0 +1,112 @@
+def get_opposite_trait(trait):
+    """Return the opposite trait letter for a given trait."""
+    return {
+        "I": "E", "E": "I",
+        "S": "N", "N": "S",
+        "T": "F", "F": "T",
+        "J": "P", "P": "J"
+    }[trait]
+
+# Initialize scores for each trait
+traits = {
+    "I": 0, "E": 0,
+    "S": 0, "N": 0,
+    "T": 0, "F": 0,
+    "J": 0, "P": 0
+}
+
+# List of 30 questions, each paired with the related trait
+questions = [
+    ("Do you prefer one-on-one conversations over group activities?", "I"),
+    ("Do you feel drained after socializing, even if you had fun?", "I"),
+    ("Do you like to think before you speak or act?", "I"),
+    ("Are you more comfortable with facts than abstract ideas?", "S"),
+    ("Do you rely on your past experiences to make decisions?", "S"),
+    ("Do you prefer to stick to proven methods rather than trying new things?", "S"),
+    ("Do you make decisions based on logic more than emotions?", "T"),
+    ("Do you enjoy analyzing complex problems?", "T"),
+    ("Are you often seen as objective and fair?", "T"),
+    ("Do you prefer planned and organized lifestyles?", "J"),
+    ("Do you like to have decisions settled?", "J"),
+    ("Do you feel better when your environment is structured?", "J"),
+    ("Do you enjoy spending time with groups of people?", "E"),
+    ("Do you feel energized after socializing?", "E"),
+    ("Do you tend to act first and think later?", "E"),
+    ("Do you focus on future possibilities rather than present realities?", "N"),
+    ("Are you more interested in ideas than facts?", "N"),
+    ("Do you like to explore new concepts and theories?", "N"),
+    ("Do you make decisions based on personal values and feelings?", "F"),
+    ("Are you empathetic towards others?", "F"),
+    ("Do you often prioritize harmony in relationships?", "F"),
+    ("Do you prefer to keep your options open rather than make decisions early?", "P"),
+    ("Are you spontaneous and flexible?", "P"),
+    ("Do you adapt easily to changes?", "P"),
+    ("Do you enjoy lively discussions and debates?", "E"),
+    ("Do you trust your intuition when making decisions?", "N"),
+    ("Are you often guided by your feelings?", "F"),
+    ("Do you prefer to leave things to chance rather than planning every detail?", "P"),
+    ("Do you enjoy being the center of attention?", "E"),
+    ("Do you value justice over mercy when making decisions?", "T"),
+]
+
+answers = []  # Stores (trait, user_answer) tuples to allow going back
+index = 0     # Current question index
+
+while index < len(questions):
+    question, trait = questions[index]
+    user_input = input(f"Q{index + 1}. {question} (Y/N/B to go back): ").strip().upper()
+
+    if user_input == 'B':
+        # Go back to previous question if possible
+        if index == 0:
+            print("You're at the first question. Can't go back.\n")
+        else:
+            # Remove last answer and undo trait score
+            last_trait, last_answer = answers.pop()
+            if last_answer == 'Y':
+                traits[last_trait] -= 1
+            else:
+                opposite = get_opposite_trait(last_trait)
+                traits[opposite] -= 1
+            index -= 1
+    elif user_input in ['Y', 'N']:
+        # Add score for current answer
+        if user_input == 'Y':
+            traits[trait] += 1
+        else:
+            opposite = get_opposite_trait(trait)
+            traits[opposite] += 1
+        answers.append((trait, user_input))
+        index += 1
+    else:
+        print("Invalid input. Please enter Y, N, or B.\n")
+
+# Calculate final personality type by comparing pairs
+personality = ""
+personality += "I" if traits["I"] >= traits["E"] else "E"
+personality += "S" if traits["S"] >= traits["N"] else "N"
+personality += "T" if traits["T"] >= traits["F"] else "F"
+personality += "J" if traits["J"] >= traits["P"] else "P"
+
+# Short descriptions for each MBTI type (add or edit as needed)
+descriptions = {
+    "ISTJ": "The Logistician – Practical, fact-minded, responsible.",
+    "ISFJ": "The Defender – Protective, warm, and detail-oriented.",
+    "INFJ": "The Advocate – Insightful, inspiring, and idealistic.",
+    "INTJ": "The Architect – Strategic, logical, and innovative.",
+    "ISTP": "The Virtuoso – Practical, observant, and flexible.",
+    "ISFP": "The Adventurer – Artistic, sensitive, and spontaneous.",
+    "INFP": "The Mediator – Empathetic, creative, and passionate.",
+    "INTP": "The Thinker – Analytical, curious, and abstract.",
+    "ESTP": "The Entrepreneur – Energetic, perceptive, and bold.",
+    "ESFP": "The Entertainer – Outgoing, friendly, and spontaneous.",
+    "ENFP": "The Campaigner – Enthusiastic, imaginative, and social.",
+    "ENTP": "The Debater – Clever, curious, and intellectual.",
+    "ESTJ": "The Executive – Organized, direct, and reliable.",
+    "ESFJ": "The Consul – Caring, social, and popular.",
+    "ENFJ": "The Protagonist – Charismatic, inspiring, and supportive.",
+    "ENTJ": "The Commander – Assertive, confident, and strategic."
+}
+
+print(f"\nYour MBTI personality type is: **{personality}**")
+print(f"Description: {descriptions.get(personality, 'A unique and rare personality!')}")
