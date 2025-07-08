@@ -20,6 +20,9 @@ I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azu
 - ℹ️ [Wordpress Depolyment](https://github.com/thisislok/thisislok/tree/main/project_wordpress)  
   A Bash script that automates the download, installation, and permission setup of the latest WordPress on a Linux web server.
 
+- ❤️ [Python Project - Interactive 16 Personalities Game](https://github.com/thisislok/thisislok/tree/main/Interactive%2016%20Personalities%20Quiz%20-%20Python%20Scripts)
+  Helps users discover their MBTI 16-personality type by answering 30 simple Yes/No questions 
+
 > *More projects coming soon!*
 
 ---
