@@ -1,4 +1,4 @@
-# 👋 Hiya, this is Lok!
+# Hiya, this is Lok!
 
  When I was eight, my dad brought home a retired Apple IIe computer from the high school where he taught. My mum wasn’t thrilled. She called it a 20 lbs old junk and worried it might crush me if it tipped over. She wanted it gone. Luckily, my dad kept it. I was instantly obsessed, started learning Integer BASIC and spent hours messing around with text games, amazed that a few lines of code could build puzzles, logic, even whole worlds. That early curiosity never really left me.
  
