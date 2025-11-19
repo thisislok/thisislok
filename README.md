@@ -11,7 +11,7 @@ I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azu
 ##  Featured Projects
 
 - [WeatherAPI App with Azure SQL Logging](https://github.com/thisislok/thisislok/tree/main/weatherAPI_app)  
-  In charge of Developing the backend logic connecting **Python with Azure SQL via pyodbc** to log user weather searches, fetching live weather data from WeatherAPI.com and storing search histories for querying.
+  In charge of developing the backend logic connecting **Python with Azure SQL via pyodbc** to log user weather searches, fetching live weather data from WeatherAPI.com and storing search histories for querying.
 
 -  [CI/CD Portfolio Site](https://loktinwebhtml.z33.web.core.windows.net/)  
   A personal portfolio hosted on **Azure Blob Storage**, powered by a full **CI/CD pipeline using GitHub Actions**. Demonstrates cloud hosting, version control, and automation skills.
