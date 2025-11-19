@@ -2,7 +2,7 @@
 
  When I was eight, my dad brought home a retired Apple IIe computer from the high school where he taught. My mum wasn’t thrilled. She called it a 20 lbs old junk and worried it might crush me if it tipped over. She wanted it gone. Luckily, my dad kept it. I was instantly obsessed, started learning Integer BASIC and spent hours messing around with text games, amazed that a few lines of code could build puzzles, logic, even whole worlds. That early curiosity never really left me.
  
- **Cloud Developer** with a background in business development and a passion for building secure, scalable, and automated systems in the cloud. I recently completed the Generation UK&I Cloud Engineering Bootcamp and hold certifications in **Azure (AZ-900, SC-900)**, **Google Cybersecurity**, and **(ISC)² CC**.
+ **Cloud Developer** with a background in business development and a passion for building secure, scalable, and automated systems in the cloud. I recently completed the Generation UK&I Cloud Engineering Bootcamp and hold certifications in **Azure (AZ-900, SC-900)**, **Google Cybersecurity**, **(ISC)² CC**, and **CompTIA Tech+**.
 
 I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azure**, and I thrive at the intersection of technical problem-solving, fast-paced learning, and strong communication.
 
@@ -49,6 +49,7 @@ I bring hands-on experience in **Terraform, Docker, MySQL, Python, Bash, and Azu
 -  [Microsoft Security, Compliance, and Identity (SC-900)](https://learn.microsoft.com/api/credentials/share/en-us/LokTinCheng-0755/7082A54CFE7F7027?sharingId)
 -  [Google Cybersecurity Professional Certificate](https://coursera.org/share/e2c89ce519cb7c1fb7fdf24c6c1ba6c5)
 -  [(ISC)² Certified in Cybersecurity (CC)](https://www.credly.com/badges/f124dda5-e2b3-4db8-a522-1f0ad6cb75bf/linked_in_profile)
+-  [CompTIA Tech+](https://www.credly.com/badges/90ff5849-aea3-43cc-b840-b7175efc5a59/linked_in?t=t5xl7h)
 
 ---
 
